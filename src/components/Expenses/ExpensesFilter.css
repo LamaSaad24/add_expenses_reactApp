@@ -1,0 +1,16 @@
+.expensesFilter {
+  margin: 1rem 1rem 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expensesFilter__label {
+  color: #fff;
+  text-transform: capitalize;
+  font-size:20px;
+}
+
+.expensesFilter__input {
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.expense-item{
+    background: #444444fc!important;
+    color:#ffffff;
+    display:flex!important;
+    flex-direction: row!important;
+    margin:1rem ;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.expense-item__description{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    flex-grow: 1;
+}
+.expense-item__price{
+    background: rgba(220, 20, 60, 0.8);
+    padding: .5rem;
+    border-radius: 5px;
+}

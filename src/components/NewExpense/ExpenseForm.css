@@ -1,0 +1,46 @@
+.new-expense__controls{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-expense__control{
+    display: flex;
+    flex-direction: column;
+    margin:.5rem;
+    width:40%;
+}
+.new-expense__control > input{
+    padding:.5rem;
+    border: none;
+    border-radius: 5px;
+}
+.new-expense__control > input:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.new-expense__control> label {
+    text-transform: capitalize;
+    margin-bottom: .2rem;
+    font-weight: 600;
+}
+.new-expense__actions{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+.new-expense__actions > button {
+    padding: .7rem 1rem;
+    text-transform: capitalize;
+    background: rgba(220, 20, 60, 0.8);
+    color:#FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in;
+    font-weight: 600;
+    margin:.5rem;
+}
+.new-expense__actions > button:hover{
+    background: crimson;
+}

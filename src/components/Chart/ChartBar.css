@@ -1,0 +1,21 @@
+.chart-bar {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart-bar__inner {
+  height: 10rem;
+  width: 0.5rem;
+  background: cornflowerblue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  display: flex;
+    flex-direction: column-reverse;
+}
+.chart-bar__fill {
+  transition: .7s ease-in;
+  background-color: blue;
+}
+.chart-bar__label {
+  font-size: small;
+}
